@@ -1,0 +1,48 @@
+        h1 {
+            width: auto;
+            height: auto;
+            /* left: 65px;
+            top: 452px; */
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            /* line-height: 64px; */
+            text-decoration-line: underline;
+            color: #1b9727;
+            padding: 15px 5px;
+            margin-left: 20px;
+        }
+        
+        h2 {
+            width: auto;
+            height: 41px;
+            left: 65px;
+            top: 2533px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 25px;
+            line-height: 41px;
+            /* identical to box height */
+            text-decoration-line: underline;
+            color: #FA10FF;
+            padding: 5px 5px;
+            margin-left: 20px;
+        }
+        
+        hr {
+            display: block;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: inset;
+            border-width: 3px;
+        }
+        
+        .para {
+            font-size: 1.5em;
+            text-align: center;
+            padding: 5px 5px;
+        }

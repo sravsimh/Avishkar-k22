@@ -1,3 +1,19 @@
+.header {
+    background-image: url("/images/header.png");
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    aspect-ratio: 10/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    font-size: 2rem;
+}
+
 .column-icons {
     display: flex;
     justify-content: center;
@@ -10,7 +26,7 @@
 
 .fa {
     width: 4rem;
-    height: 3.5rem;
+    height: 3.7rem;
     background-color: orangered;
     color: black;
     display: flex;
@@ -19,8 +35,8 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    border: radius 5px;
-    ;
+    border: 2px solid;
+    border-radius: 18px;
 }
 
 #grid {
@@ -38,4 +54,26 @@
 
 a {
     text-decoration: none;
+}
+
+.footer {
+    background-image: url(/images/footer.jpeg);
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    aspect-ratio: 26/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    font-size: 2rem;
+    margin-top: 5.25rem;
+}
+
+.h2,
+h2 {
+    font-size: calc(0.325rem + 0.9vw);
 }
